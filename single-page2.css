@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #07082b;
+}
+
+.divImg {
+    width: 500px;
+    flex-grow: 1;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 500px;
+    height: 706px;
+    background-color: #07082b;
+    border: 1px solid #07082b;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+
+h1 {
+    color: #edb10c;
+    font-size: 90px;
+    letter-spacing: 1px;
+}
+
+.code-takhfif {
+    width: 300px;
+    height: 40px;
+    background: rgb(207, 219, 16);
+    background: linear-gradient(90deg, rgba(207, 219, 16, 0.7512254901960784) 0%, rgba(239, 240, 230, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSource {
+    color: white;
+    margin-top: 42px;
+}
+
+a {
+    color: white;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    background-color: #07082b;
+    color: white;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+input:hover {
+    background-color: white;
+    color: #07082b;
+    transition: all 0.4s;
+}

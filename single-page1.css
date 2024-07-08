@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.header-info {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.divBoxContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divBoxLeft {
+    width: 335px;
+    height: 233px;
+    padding: 20px;
+    margin: 50px 20px;
+    opacity: 0.8;
+    background-color: #19096b;
+    color: white;
+    box-shadow: 0px 0px 30px 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matn-left {
+    width: 150px;
+    height: 169px;
+    border: 1px solid #19096b;
+    padding: 3px 3px;
+    margin: -19px 28px;
+    font-size: 18px;
+
+}
+
+.divBoxLeft img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+}
+
+.divBoxMiddle {
+    width: 335px;
+    height: 233px;
+    padding: 20px;
+    margin: 50px 20px;
+    opacity: 0.7;
+    background-color: gray;
+    color: white;
+    box-shadow: 0px 0px 30px 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matn-middle {
+    width: 150px;
+    height: 169px;
+    border: 1px solid gray;
+    padding: 3px 3px;
+    margin: -19px 28px;
+    font-size: 18px;
+}
+
+.divBoxMiddle img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+}
+
+.divBoxRight {
+    width: 335px;
+    height: 233px;
+    padding: 20px;
+    margin: 50px 20px;
+    opacity: 0.7;
+    background-color: orangered;
+    color: white;
+    box-shadow: 0px 0px 30px 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matn-right {
+    width: 150px;
+    height: 169px;
+    border: 1px solid orangered;
+    padding: 3px 3px;
+    margin: -19px 28px;
+    font-size: 18px;
+}
+
+.divBoxRight img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+}
+
+.divFooter {
+    margin: 51px 0;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

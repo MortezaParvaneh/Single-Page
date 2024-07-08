@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divHead {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+.PersonJob {
+
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.divContainerBody {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.info-left {
+    width: 292px;
+    height: 350px;
+    line-height: 2;
+    margin: 40px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.info-right {
+    line-height: 2;
+    margin: 40px;
+}
+
+a {
+    color: black;
+}
+
+i {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.icon {
+    margin-top: -30px;
+}
